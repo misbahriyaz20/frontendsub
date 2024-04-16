@@ -1,0 +1,80 @@
+.customerListContainer {
+    background-color: #ffffff; 
+    padding-top: 40px; 
+    text-align: center;
+    padding-top: 40px; 
+    padding-bottom: 20px; 
+  }
+  
+  .customerList {
+    scrollbar-width: thin; 
+    scrollbar-color: #888 #e1e1e1; 
+  }
+  
+  
+  .customerList::-webkit-scrollbar {
+    width: 1px; 
+  }
+  
+  .customerList::-webkit-scrollbar-track {
+    background: #e1e1e1; 
+  }
+  
+  .customerList::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 2px; 
+  }
+  
+ 
+  .customerList {
+   height: 100%;
+   
+  }
+  
+  .customerCard {
+    background-color: #fff; 
+    margin: 0; 
+    padding: 15px; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #9c9c9c; 
+    font-size: 0.95em;
+    font-weight: 300; 
+    border-bottom: 1px solid #e1e1e1; 
+  
+    
+    height: 100px; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+  }
+  
+  .customerCard:last-child {
+    border-bottom: none; 
+  }
+  
+  .customerCard:hover {
+    background-color: #e8e8e8; 
+  }
+  
+  .customerCard.active {
+    background-color: #d0d0d0; 
+  }
+  
+  .customerCard h3 {
+    color: #7f7f7f; 
+    margin-top: 0; 
+    margin-bottom: 5px; 
+  }
+  
+  .customerCard p {
+    margin: 0; 
+  }
+  h1 {
+    font-weight: 300; 
+    font-size: 24px; 
+  }
+  
