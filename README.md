@@ -1,3 +1,13 @@
+Instructions to run:
+1. download repo.
+2. navigate to project directory on cmd - cd path to project directory/frontendsub
+3. once in the directory - npm install
+4. npm start
+
+Note - This project utilizes the Unsplash API to fetch images. Initially, the API may return the same set of photos due to its internal caching mechanisms. To demonstrate dynamic content, a slight adjustment has been made to the application logic to fetch and render different photos at 10-second intervals. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
