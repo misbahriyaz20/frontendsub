@@ -31,7 +31,7 @@ function App() {
     <div className={styles.app}>
      
       <header className={styles.fullWidthHeader}>
-        <h1>This here is the heading</h1>
+        <h1>Customers</h1>
       </header>
   
       {}
